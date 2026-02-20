@@ -36,11 +36,11 @@ const upload = multer({ storage, limits: { fileSize: 10 * 1024 * 1024 } }); // 1
 
 // ── Config BD ─────────────────────────────────────────────────────────────────
 const dbConfig = {
-  host:     'localhost',
+  host:     'mysql.railway.internal',
   port:     3306,
-  user:     'app_user',
-  password: 'AppPassword123',
-  database: 'FANTASMIKAEH'
+  user:     'root',
+  password: 'siUsSgFYhkZEfiPYEBQIBLwuIuAKWFrF',
+  database: 'railway'
 };
 
 // ============= LOGIN =============
